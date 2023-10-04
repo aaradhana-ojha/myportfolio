@@ -19,17 +19,24 @@
 }
 .topleft{
     width: 50%;
-    height: 50vh;
+    
 }
 .topright{
     width: 50%;
-    height: 50vh;
+    
 }
 .section1{
-    height: 50vh;
+    max-height: 100vh;
 
 }
 .logo{
     font-size: 2rem;
+
+}
+.lgimg{
+    width: 89px;
+}
+.topright .meimg{
+    width: 666px;
 
 }

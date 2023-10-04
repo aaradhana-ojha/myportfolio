@@ -47,3 +47,9 @@
     color: white;
     background-color:rgb(25, 25, 74) ;
 }
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.text-center{
+    text-align: center;
+}
