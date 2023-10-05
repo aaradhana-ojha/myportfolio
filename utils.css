@@ -17,8 +17,13 @@
 .justify-between{
     justify-content: space-between;
 }
-.justify-center{
-    justify-content: center;
+.justify-left{
+    justify-content: left;
+
+}
+.justify-left1{
+    justify-content: left;
+    list-style: none;
 
 }
 .flex-col{
@@ -31,25 +36,43 @@
 .my-1{
     margin-top: 23px;
     margin-bottom: 23px;
+    font-size: 100px !important;
+    font-family: 'Volkhov' , sans-serif ;
+    color: #21243D;
+  }
+.text-center{
+    font-family: 'inter' , sans-serif;
+    color: #66645E;
+
 }
 .px-2{
     padding-left: 23px;
     padding-right: 23px;
 }
 .text-blue{
-    color: rgb(25, 25, 74);
+    color: rgb(25, 25, 74);  
+    font-size: 200%; 
 }
-.btn{
-    padding:7px 12px;
+.btn {
+    padding: 20px 15px;
     border: 2px solid white;
     border-radius: 10px;
     cursor: pointer;
     color: white;
-    background-color:rgb(25, 25, 74) ;
+    background-color: rgb(25, 25, 74);
+    display: inline-block; /* Add this property to make the button inline */
+    margin-top: 30px; /* Adjust the top margin as needed */
+    margin-left: 0; /* Remove any unnecessary left margin */
+    font-size: inherit; /* Inherit the font size from the parent */
+}
+
+/* Add hover effect to the button */
+.btn:hover {
+    background-color: #f9c13a; /* Change the color on hover if desired */
 }
 .overflow-x-hidden{
     overflow-x: hidden;
 }
-.text-center{
-    text-align: center;
+.text-left{
+    text-align: left;
 }
