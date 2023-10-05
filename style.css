@@ -47,11 +47,58 @@
     margin: 12px 22px;
     min-width: 20vw;
     border: 2px solid rgb(180, 177, 9);
-    text-align: center
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 .box ul{
     list-style-type: none;
 }
 .box ul li{
     margin: 12px 2px ;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+.box2 ul{
+    list-style-type: none;
+}
+.box2 ul li{
+    margin: 12px 2px ;
+}
+.section2{
+    margin-top: 20px;
+}
+.boxes2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.text-center2 {
+    margin-bottom: 40px;
+    padding: 0 8vw;
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    margin-top: 50px;
+
+}
+.projects{
+    justify-content: left;
+    gap: 20px; 
+}
+
+.projects ul{
+    list-style: none;
+    
+}
+.section3{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
