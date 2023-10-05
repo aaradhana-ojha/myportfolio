@@ -42,3 +42,16 @@
 .meimg{
     height: 100%;
 }
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(180, 177, 9);
+    text-align: center
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px ;
+}
